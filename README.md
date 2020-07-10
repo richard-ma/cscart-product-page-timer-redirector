@@ -1,0 +1,1 @@
+# cscart-product-page-timer-redirector
