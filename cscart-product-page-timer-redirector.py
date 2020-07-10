@@ -30,7 +30,7 @@ for opt_name, opt_value in opts:
 
     # target_domain_with_protocol
     if opt_name in ('-t', '--target_domain'):
-        replace_dict['target_domain'] = opt_value
+        replace_dict['target_domain'] = '\''+opt_value+'\''
         # todo: print and log
         print("target domain: %s" % (replace_dict['target_domain']))
 
